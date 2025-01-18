@@ -18,7 +18,6 @@ TASK 1: Creating UML Diagram and Implementing Classes
       ATTRIBUTES: courseTitle, courseCode, assignedLecturer, studentList
       METHODS: addStudent, removeStudent
 
-[Uploading OOP ANALYSIS AND DESIGN.PDF.pdf…]()
 
 
 
