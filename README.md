@@ -10,8 +10,7 @@ TASK 1: Creating UML Diagram and Implementing Classes
       METHODS: enrolledCourse, dropCourse
 
       Lecturer
-      ATTRIBUTES: name, lecturerId,[OOP ANALYSIS AND DESIGN.PDF.pdf](https://github.com/user-attachments/files/18466425/OOP.ANALYSIS.AND.DESIGN.PDF.pdf)
- assignedCourses, emailAddress
+      ATTRIBUTES: name, lecturerId, assignedCourses, emailAddress
       METHODS: assignCourse, removCourse
 
       Course
