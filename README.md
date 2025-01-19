@@ -209,23 +209,33 @@ const lecturer3 = new Lecturer(
 );
 
 const course1 = new Course("Javascript", "JS221");
+
 const course2 = new Course("OOP", "OOP101");
+
 const course3 = new Course("Git", "GIT312");
 
 lecturer1.assignCourse(course1);
+
 lecturer2.assignCourse(course3);
+
 lecturer3.assignCourse(course2);
 
 student1.enrollCourse(course1);
+
 student2.enrollCourse(course3);
+
 student3.enrollCourse(course2);
 
 student1.droppedCourse(course2);
+
 student2.droppedCourse(course1);
+
 student3.droppedCourse(course3);
 
 console.log(Student.getTotalSudents());
+
 console.log(Lecturer.getTotalLecturers());
+
 console.log(Course.getTotalCourses());
 
 
