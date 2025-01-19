@@ -39,6 +39,7 @@ TASK 1: Creating UML Diagram and Implementing Classes
 
  
   enrollCourse(course) {
+   
     if (!this.enrolledCourses.includes(course)) {
       this.enrolledCourses.push(course);
       course.addStudent(this);
