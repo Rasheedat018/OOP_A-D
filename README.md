@@ -70,9 +70,11 @@ TASK 1: Creating UML Diagram and Implementing Classes
 
 
 class Lecturer {
+  
   static totalLecturers = 0;
 
   constructor(name, lectureId, assignedCourses = [], emailAddress) {
+   
     this.name = name;
     this.lectureId = lectureId;
     this.assignedCourses = assignedCourses;
@@ -81,6 +83,7 @@ class Lecturer {
   }
 
   assignCourse(course) {
+   
     if (!this.assignedCourses.includes(course)) {
       this.assignedCourses.push(course);
       course.addLecturer = this;
@@ -95,6 +98,7 @@ class Lecturer {
   }
 
   removeCourse(course) {
+  
     const index = this.assignedCourses.indexOf(course);
     if (index !== -1) {
       this.assignedCourses.splice(index, 1);
@@ -110,8 +114,10 @@ class Lecturer {
   }
 
   static getTotalLecturers() {
+   
     return Lecturer.totalLecturers;
   }
+  
 }
 
 class Course {
