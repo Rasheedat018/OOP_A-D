@@ -171,12 +171,14 @@ const student1 = new Student(
   [],
   "olusirasheedat@gmail.com",
 );
+
 const student2 = new Student(
   "Morayo Adeyemi",
   "FE322",
   [],
   "adeyemimo@gmail.com",
 );
+
 const student3 = new Student(
   "Candy Krush",
   "FE419",
@@ -184,18 +186,21 @@ const student3 = new Student(
   "candykrush@gmail.com",
 );
 
+
 const lecturer1 = new Lecturer(
   "Eze Livinus",
   "LEC001",
   [],
   "ezelivinus@gmail.com",
 );
+
 const lecturer2 = new Lecturer(
   "Simply Kachi",
   "LEC122",
   [],
   "simplykachi@gmail.com",
 );
+
 const lecturer3 = new Lecturer(
   "Falcon Dayo",
   "LEC314",
