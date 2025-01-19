@@ -120,10 +120,13 @@ class Lecturer {
   
 }
 
+
 class Course {
+ 
   static totalCourses = 0;
 
   constructor(courseTitle, courseCode, assignLecturer, studentList) {
+    
     this.courseTitle = courseTitle;
     this.courseCode = courseCode;
     this.assignLecturer = null;
@@ -132,6 +135,7 @@ class Course {
   }
 
   addStudent(student) {
+   
     if (!this.studentList.includes(student)) {
       this.studentList.push(student);
       console.log(`${student.name} has been added to the ${this.courseTitle}`);
@@ -141,6 +145,7 @@ class Course {
   }
 
   removeStudent(student) {
+   
     const index = this.studentList.indexOf(student);
     if (index !== -1) {
       this.studentList.splice(index, 1);
@@ -154,8 +159,10 @@ class Course {
     }
   }
   static getTotalCourses() {
+   
     return Course.totalCourses;
   }
+  
 }
 
 const student1 = new Student(
