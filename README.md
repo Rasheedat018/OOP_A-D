@@ -50,6 +50,7 @@ TASK 1: Creating UML Diagram and Implementing Classes
   }
 
   droppedCourse(course) {
+    
     const index = this.enrolledCourses.indexOf(course);
     if (index !== -1) {
       this.enrolledCourses.splice(index, 1);
