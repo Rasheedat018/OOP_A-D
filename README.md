@@ -28,11 +28,13 @@ TASK 1: Creating UML Diagram and Implementing Classes
   static totalStudents = 0;
 
   constructor(name, studentId, enrolledCourses = [], emailAddress) {
+    
     this.name = name;
     this.studentId = studentId;
     this.enrolledCourses = enrolledCourses;
     this.emailAddress = emailAddress;
     Student.totalStudents++;
+    
   }
 
  
