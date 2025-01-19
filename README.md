@@ -65,6 +65,7 @@ TASK 1: Creating UML Diagram and Implementing Classes
    
     return Student.totalStudents;
   }
+  
 }
 
 
