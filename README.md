@@ -18,7 +18,8 @@ TASK 1: Creating UML Diagram and Implementing Classes
       METHODS: addStudent, removeStudent
 
     c. Code Implentation
-
+      Below is a JavaScript code that implements the class in my diagram. It contains class/static properties for each class and two methos for each class.
+    
     https://replit.com/@olusirasheedat/Object-Oriented-Analysis-And-Design#index.js
 
     class Student {
@@ -198,4 +199,7 @@ student3.droppedCourse(course3);
 console.log(Student.getTotalSudents());
 console.log(Lecturer.getTotalLecturers());
 console.log(Course.getTotalCourses());
+
+
+
 
