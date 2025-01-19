@@ -22,6 +22,8 @@ TASK 1: Creating UML Diagram and Implementing Classes
     
     https://replit.com/@olusirasheedat/Object-Oriented-Analysis-And-Design#index.js
 
+    
+    
     class Student {
   static totalStudents = 0;
 
