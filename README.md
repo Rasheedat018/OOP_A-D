@@ -62,9 +62,11 @@ TASK 1: Creating UML Diagram and Implementing Classes
   }
 
   static getTotalSudents() {
+   
     return Student.totalStudents;
   }
 }
+
 
 class Lecturer {
   static totalLecturers = 0;
