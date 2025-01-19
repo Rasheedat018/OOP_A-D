@@ -1,6 +1,7 @@
 Task on OBJECT ORIENTED ANALYSIS AND DESIGN
 
 TASK 1: Creating UML Diagram and Implementing Classes
+
   a. Title: SCHOOL MANAGEMENT SYSTEM
       
       Description: This system enables enrollment of students, assigning of lecturers and assigning of courses.
